@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.cookies-bar {
+  height: 100px;
+  background-color: yellow;
+  position: fixed;
+  width: 100%;
+}
+
+.cookies-bar p {
+  text-align: center;
+}
+
+.text {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
