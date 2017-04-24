@@ -6,6 +6,8 @@
 .container {
   display: inline-flex;
   flex-flow: row;
+  width: 100%;
+  max-width: 840px;
 
 }
 
@@ -13,6 +15,9 @@
   width: 100px;
   height: 100px;
   margin: 10px;
+}
+.header {
+  min-width: 50%;
 }
 
 .title {
