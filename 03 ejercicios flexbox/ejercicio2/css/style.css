@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  display: inline-flex;
+  flex-flow: row;
+
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.title {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.buttons {
+  display: inline;
+}
+
+.score-div {
+  display: inline-flex;
+}
+
+.score {
+  font-family: sans-serif;
+  font-size: 12px;
+  margin: 10px;
+}
+
+.score-data {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.star {
+  width: 40px;
+}
