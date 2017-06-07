@@ -1,8 +1,8 @@
-"use strict"
+"use strict";
 
 var burgerIconElement = document.querySelector("#burger-icon");
 var closeIconElement = document.querySelector("#close-icon");
-var mobileNavElement = document.querySelector("#mobile-nav")
+var mobileNavElement = document.querySelector("#mobile-nav");
 
 
 
@@ -13,9 +13,9 @@ function showMobile() {
 }
 
 function closeMobile() {
-   mobileNavElement.classList.remove("mobile-show");
-   closeIconElement.classList.toggle("close-show");
-   burgerIconElement.classList.remove("closeHidden");
+  mobileNavElement.classList.remove("mobile-show");
+  closeIconElement.classList.toggle("close-show");
+  burgerIconElement.classList.remove("closeHidden");
  }
 
 
