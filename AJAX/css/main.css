@@ -1,0 +1,44 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.input, .btn {
+  height: 35px;
+  border: 3px solid midnightblue;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: midnightblue;
+  text-align: center;
+}
+
+.btn {
+  background-color: skyblue;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  max-width: 487px;
+  background-color: lightblue;
+  color: midnightblue;
+}
+
+.form {
+  line-height: 2;
+  margin: 20px;
+}
+
+.form ul {
+  list-style: none;
+  padding: 0;
+}
