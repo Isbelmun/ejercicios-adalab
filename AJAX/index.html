@@ -16,29 +16,30 @@
           <img src="images/chibi.png" alt="Banner de github"></a>
       </div>
 
-      <form class="form" action="index.html" method="post">
+      <form class="form" action="index.html" method="get">
         <h2>Buscador de usuarios en Github</h3>
 
         <ul>
-          <li><input class="input" type="text" name="Nickname" placeholder="Alias">
-            <button class="btn" type="button" name="button">Buscar</button>
+          <li><input class="userInput" type="text" name="Nickname" placeholder="Alias">
+            <input class="btn" type="button" name="button" value="Buscar">
           </li>
         </ul>
 
         <h2>Resultados</h2>
 
-        <div class="foto-usuario">
-          <img class="output-pic" src="" alt="">
+        <div class="avatar-container">
+          <img class="avatar" alt="Avatar de usuario">
         </div>
 
         <h4>Nombre de usuario:</h3>
-        <p class="name-output"></p>
+        <p class="user-name"></p>
 
         <h4>Número de repositorios en Github</h4>
         <p class="repositorios"></p>
+
       </div>
       </form>
-
-
+      <script src="js/main.js" charset="utf-8"></script>
+      <script src="js/jquery.min.js" charset="utf-8"></script>
   </body>
 </html>

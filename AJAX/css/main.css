@@ -9,7 +9,7 @@ body {
   font-size: 1.2em;
 }
 
-.input, .btn {
+.userInput, .btn {
   height: 35px;
   border: 3px solid midnightblue;
   border-radius: 10px;
@@ -31,6 +31,7 @@ body {
   max-width: 487px;
   background-color: lightblue;
   color: midnightblue;
+  box-shadow: 4px 6px 20px 0.5px midnightblue;
 }
 
 .form {
